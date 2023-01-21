@@ -17,7 +17,7 @@ if (response.IsSuccessStatusCode)
     var supliers = await response.Content.ReadFromJsonAsync < IEnumerable < SuplierDto >> ();
     foreach(var s in supliers)
     {
-        Console.WriteLine(s.CompanyName + "  " + s.ContactName + "  " + s.Address);
+        Console.WriteLine(s.CompanyName + "  " + s.ContactName + "  " + s.Address + "  " + s.City);
     }
 }
 else
