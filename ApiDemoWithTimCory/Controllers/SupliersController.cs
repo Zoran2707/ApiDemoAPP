@@ -11,9 +11,9 @@ namespace ApiDemoWithTimCory.Controllers
     [ApiController]
     public class SupliersController : ControllerBase
     {
-        private readonly SuplierDbContext _context;
+        private readonly NorthwindDbContext _context;
 
-        public SupliersController(SuplierDbContext context)
+        public SupliersController(NorthwindDbContext context)
         {
             _context = context;
         }
