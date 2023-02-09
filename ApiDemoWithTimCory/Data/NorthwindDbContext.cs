@@ -17,5 +17,7 @@ namespace ApiDemoWithTimCory.Data
         public DbSet<Region> Region { get; set; }
 
         public DbSet<Suplier> Suppliers { get; set; }
+
+        public DbSet<Territorie> Territories { get; set; }
     }
 }
